@@ -8,6 +8,8 @@ Participants have to train a model on tweets. Therefore, participants have to bu
 
 The training data is composed of 7757 samples. The validation set is composed of 2656 samples. All samples are preprocessed in order to replace named entities with a special tag: $NE$.
 
+**Note that the tweets are encrypted. You may or not decrypt the texts for solving this project.**
+
 ## File description 
 
 * train_samples.txt - the training data samples (one sample per row)
@@ -18,7 +20,7 @@ The training data is composed of 7757 samples. The validation set is composed of
 * sample_submission.txt - a sample submission file in the correct format
 
 ## Data format
-You can download the data for this project **_[here](https://github.com/JusticeBringer/Sub-dialect-identification)_**
+You can download the data for this project **_[here](https://github.com/JusticeBringer/Sub-dialect-identification/tree/master/data)_**
 
 ### Samples File
 The data samples are provided in the following format based on TAB separated values:
