@@ -1,6 +1,6 @@
 # Romanian sub-dialect identification
 Discriminate between the Moldavian and the Romanian dialects across different text genres (news versus tweets)\
-**(Project details can also be found on the Kaggle competition _[here](https://www.kaggle.com/c/ml-2020-unibuc-3/data)_**
+**(Project details can also be found on the Kaggle competition _[here](https://www.kaggle.com/c/ml-2020-unibuc-3/data)_)**
 
 
 ## Task
