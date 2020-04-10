@@ -1,5 +1,5 @@
 # Romanian sub-dialect identification
-Discriminate between the Moldavian and the Romanian dialects across different text genres (news versus tweets)
+Discriminate between the Moldavian and the Romanian dialects across different text genres (news versus tweets)\
 **(Project details can also be found on the Kaggle competition _[here](https://www.kaggle.com/c/ml-2020-unibuc-3/data)_**
 
 
@@ -60,21 +60,21 @@ For solving the sub-dialect identification I tried all the following models:
 
 ```
 1. Logistic Regression 
-1. Naïve Bayes
-1. SVM
-1. Linear Regression
-1. LSTM
-1. LSTM + CNN
-1. GRU cells
+2. Naïve Bayes
+3. SVM
+4. Linear Regression
+5. LSTM
+6. LSTM + CNN
+7. GRU cells
 ```
 
 All the 4 first models had similar workflow:
 
 ```
 1. Load the data from the .txt files
-1. Apply the TF-IDF technique
-(1.*) Sometimes the data was normalized and standardised
-1. Fit and predict
+2. Apply the TF-IDF technique
+(3.*) Sometimes the data was normalized and standardised
+4. Fit and predict
 
 ```
 
@@ -176,8 +176,8 @@ The last 3 models had also similar workflow:
 
 ```
 1. Load the data from .txt files
-1. Assign each crypted word its frequency number
-1. Fit and predict
+2. Assign each crypted word its frequency number
+3. Fit and predict
 ```
 
 ### 5. LSTM
